@@ -1,0 +1,512 @@
+{
+    "components": {
+        "Auth": {
+            "Authenticator": {
+                "register": [
+                    "注册",
+                    "Register"
+                ],
+                "or": [
+                    "或",
+                    "or"
+                ],
+                "signIn": [
+                    "登陆",
+                    "Sign In"
+                ]
+            },
+            "Reset": {
+                "pleaseCheck": [
+                    "请检查邮件以重置密码",
+                    "Please check your email for a password reset code"
+                ],
+                "submit": [
+                    "提交",
+                    "Reset"
+                ],
+                "invalidCode": [
+                    "验证码无效 请重新发送",
+                    "Invalid code provided, please request a code again"
+                ]
+            },
+            "SignIn": {
+                "signIn": [
+                    "登陆",
+                    "Sign In"
+                ],
+                "forgotPassword": [
+                    "忘记密码",
+                    "Forgot Password?"
+                ],
+                "email": [
+                    "邮箱",
+                    "Email"
+                ],
+                "password": [
+                    "密码",
+                    "Password"
+                ],
+                "emailRequiredReset": [
+                    "填写邮箱账户以重置密码",
+                    "Email required for password reset"
+                ],
+                "tryAgain": [
+                    "对不起，请重试",
+                    "Sorry, please try again"
+                ],
+                "incorrectUnOrPw": [
+                    "账号或密码错误",
+                    "Incorrect username or password"
+                ]
+            },
+            "SignUp": {
+                "ERRsixOrMoreCharacters": [
+                    "密码不得低于6个字符。",
+                    "Password must be at least six characters."
+                ],
+                "ErrEmailTaken": [
+                    "An account with the given email already exists.",
+                    "An account with the given email already exists."
+                ],
+                "ErrGeneric": [
+                    "There was a problem. Please contact support if the problem persists.",
+                    "There was a problem. Please contact support if the problem persists."
+                ],
+                "register": [
+                    "注册",
+                    "Register"
+                ],
+                "username": [
+                    "用户名",
+                    "Username"
+                ],
+                "email": [
+                    "邮箱",
+                    "Email"
+                ],
+                "password": [
+                    "密码",
+                    "Password"
+                ],
+                "emailVerificationSent": [
+                    "请看电子邮件验证码",
+                    "Please check your email for a verification link."
+                ]
+            }
+        },
+        "Drawer": {
+            "helpers": {
+                "workouts": [
+                    "运动",
+                    "Workouts"
+                ],
+                "profile": [
+                    "主页",
+                    "Profile"
+                ],
+                "payments": [
+                    "付款",
+                    "Payments"
+                ],
+                "questions": [
+                    "问题和答案",
+                    "Q&A"
+                ],
+                "logout": [
+                    "退出登陆",
+                    "Logout"
+                ]
+            }
+        },
+        "header": {
+            "Header": {
+                "nameMaxPower": [
+                    "MAX力量",
+                    "MAXPower"
+                ],
+                "nameAitaAi": [
+                    "aita.ai",
+                    "aita.ai"
+                ],
+                "signin": [
+                    "登陆",
+                    "Sign In"
+                ]
+            }
+        },
+        "Form": {
+            "DropSelect": {
+                "reps": [
+                    "${option} 次",
+                    "${option} reps"
+                ]
+            },
+            "userForm": {
+                "email": [
+                    "邮箱",
+                    "email"
+                ],
+                "male": [
+                    "男",
+                    "Male"
+                ],
+                "female": [
+                    "女",
+                    "Female"
+                ],
+                "birthYear": [
+                    "出生年",
+                    "Birth year"
+                ],
+                "birthMonth": [
+                    "出生月",
+                    "month"
+                ],
+                "birthDay": [
+                    "生日",
+                    "day"
+                ],
+                "height": [
+                    "身高 (cm)",
+                    "Height (cm)"
+                ],
+                "weight": [
+                    "体重 (公斤)",
+                    "Weight (kg)"
+                ],
+                "maxSquat": {
+                    "kg": [
+                        "极限重量深蹲 (公斤)",
+                        "Maximum Squat (kg)"
+                    ],
+                    "lb": [
+                        "极限重量深蹲 (磅)",
+                        "Maximum Squat (lb)"
+                    ]
+                },
+                "maxBench": {
+                    "kg": [
+                        "极限重量卧推 (公斤)",
+                        "Maximum Bench (kg)"
+                    ],
+                    "lb": [
+                        "极限重量卧推 (磅)",
+                        "Maximum Bench (lb)"
+                    ]
+                },
+                "maxDeadlift": {
+                    "kg": [
+                        "极限重量硬拉 (公斤)",
+                        "Maximum Deadlift (kg)"
+                    ],
+                    "lb": [
+                        "极限重量硬拉 (磅)",
+                        "Maximum Deadlift (lb)"
+                    ]
+                },
+                "kilograms": [
+                    "公斤",
+                    "Kilograms"
+                ],
+                "pounds": [
+                    "磅",
+                    "Pounds"
+                ],
+                "low_bar": [
+                    "低杠",
+                    "low-bar"
+                ],
+                "high_bar": [
+                    "高杠",
+                    "high-bar"
+                ],
+                "narrow_grip": [
+                    "窄距",
+                    "narrow-grip"
+                ],
+                "medium_grip": [
+                    "中距",
+                    "medium-grip"
+                ],
+                "wide_grip": [
+                    "宽距",
+                    "wide-grip"
+                ],
+                "conventional": [
+                    "传统",
+                    "conventional"
+                ],
+                "sumo": [
+                    "相扑",
+                    "sumo"
+                ]
+            }
+        }
+    },
+    "screens": {
+        "landingPage": {
+            "Hero": {
+                "header": [
+                    "注册就可以加入Max Aita的训练计划！",
+                    "Come train with Max Aita!"
+                ]
+            }
+        },
+        "payment": {
+            "layout": {
+                "firstGenParagraph": [
+                    "一刀切、模板式的在线力量举计划无法让你进步。一位称职的教练首先应当满足你的训练需求，然后根据你的现状及进步情况及时调整计划，从而帮你取得更好的训练效果。",
+                    "Growth as a powerlifter won't come from one-size-fits-all programs online. A good coach builds a program that meets your needs and adjusts the program as you progress for maximum effect."
+                ],
+                "secondGenParagraph": [
+                    "Max Aita深耕力量训练领域多年，并指导出了无数冠军，帮助多位力量举及举重运动员打破国家和国际记录。无论是职业运动员，还是业余爱好者，他都可以陪你走过完美的运动生涯。",
+                    "Max Aita has done this for years for powerlifters and weightlifters who win titles and break records at the national and world level. He has made a career out of building and refining the perfect programs for champions and hobbyists alike."
+                ],
+                "thirdGenParagraph": [
+                    "Max基于数以万计的教学案例及自己三十余年的训练经验，制作了一套AI计划系统，为你制作独一无二的训练计划。",
+                    "Now Max Aita has built a system that does all of this, just for you."
+                ],
+                "fourthGenParagraph": [
+                    "只需回答几个问题，Max的训练逻辑就能制作出只属于你的完美计划。它可以及时响应，随着你的进步、精神状态、训练表现而随时调整计划，宛如Max亲自陪你训练。",
+                    "Simply answer a few questions and Max's training logic will build your perfect program. Then, as you progress, the program will adjust itself based on your performance. It's just like having Coach Max train you in person."
+                ],
+                "firstPowerliftParagraph": [
+                    "力量举是所有力量运动的基础。仅仅用深蹲、卧推和硬拉这3个动作，就可以让你脱胎换骨，让别人为你的变化为之惊叹。",
+                    "Powerlifting is the foundation of all strength sports, focusing on the squat, deadlift, and bench press. Becoming strong in these three lifts will change your body and mind."
+                ],
+                "plHeader": [
+                    "力量举",
+                    "Powerlifting"
+                ],
+                "frequencyOption": [
+                    "一周${option}练",
+                    "${option} workouts a week"
+                ],
+                "pleaseFillInData": [
+                    "请填写数据！",
+                    "Please fill in all fields!"
+                ],
+                "male": [
+                    "男",
+                    "Male"
+                ],
+                "female": [
+                    "女",
+                    "Female"
+                ],
+                "birthYear": [
+                    "出生年",
+                    "Birth year"
+                ],
+                "birthMonth": [
+                    "出生月",
+                    "month"
+                ],
+                "birthDay": [
+                    "生日",
+                    "day"
+                ],
+                "height": [
+                    "身高 (cm)",
+                    "Height (cm)"
+                ],
+                "weight": [
+                    "体重 (公斤)",
+                    "Weight (kg)"
+                ],
+                "maxSquat": {
+                    "kg": [
+                        "极限重量深蹲 (公斤)",
+                        "Maximum Squat (kg)"
+                    ],
+                    "lb": [
+                        "极限重量深蹲 (磅)",
+                        "Maximum Squat (lb)"
+                    ]
+                },
+                "maxBench": {
+                    "kg": [
+                        "极限重量卧推 (公斤)",
+                        "Maximum Bench (kg)"
+                    ],
+                    "lb": [
+                        "极限重量卧推 (磅)",
+                        "Maximum Bench (lb)"
+                    ]
+                },
+                "maxDeadlift": {
+                    "kg": [
+                        "极限重量硬拉 (公斤)",
+                        "Maximum Deadlift (kg)"
+                    ],
+                    "lb": [
+                        "极限重量硬拉 (磅)",
+                        "Maximum Deadlift (lb)"
+                    ]
+                },
+                "frequency": [
+                    "训练频率",
+                    "Training days per week"
+                ],
+                "fitnessLevel": [
+                    "难度等级",
+                    "Fitness level"
+                ],
+                "low": [
+                    "低",
+                    "Low"
+                ],
+                "lowDescription": [
+                    "过去三十天里没训练，或者基本没有训练。",
+                    "Little or no training in the last 30 days."
+                ],
+                "medium": [
+                    "中",
+                    "Medium"
+                ],
+                "mediumDescription": [
+                    "过去三十天有训练，但没有走力量训练的计划，或者训练的强度不高。",
+                    "Low-intensity or poorly-planned training in the last 30 days."
+                ],
+                "high": [
+                    "高",
+                    "High"
+                ],
+                "highDescription": [
+                    "刚结束一个力量训练的计划，过去三十天有好好训练。",
+                    "Just finished a program in the last 30 days."
+                ],
+                "promoPurchaseCode": [
+                    "购买码",
+                    "Promo/Purchase code"
+                ],
+                "weeks": [
+                    "周",
+                    " weeks"
+                ],
+                "RMB": [
+                    "元",
+                    " RMB"
+                ],
+                "programStartsDate": [
+                    "计划开始日期",
+                    "Program starts"
+                ],
+                "exchangeRateDiff": [
+                    "由于美元汇率变动，实际价格请以付款页面为准",
+                    "Due to exchange rate, price may be slightly different than advertised."
+                ]
+            }
+        },
+        "workout-settings": {
+            "layout": {
+                "frequency": [
+                    "频率",
+                    "Frequency"
+                ],
+                "frequencyNextWeek": [
+                    "频率变更将于下周生效",
+                    "Changes to frequency will take effect next week"
+                ],
+                "submit": [
+                    "提交",
+                    "Submit"
+                ],
+                "holds": [
+                    "暂停",
+                    "Holds"
+                ],
+                "status": [
+                    "状态: ",
+                    "Status: "
+                ]
+            }
+        },
+        "workouts": {
+            "layout": {
+                "week": [
+                    "周",
+                    "Week"
+                ],
+                "loading": [
+                    "加载中",
+                    "loading..."
+                ],
+                "thatsAll": [
+                    "这就是全部了！",
+                    "That's all!"
+                ],
+                "reps": [
+                    "次",
+                    "reps"
+                ],
+                "fail": [
+                    "失败",
+                    "failed"
+                ],
+                "save": [
+                    "存",
+                    "✓"
+                ],
+                "error": [
+                    "错误",
+                    "Error"
+                ],
+                "programStartsMonday": [
+                    "您的计划已经准备完毕，咱们周一开始！",
+                    "Your program is ready and will start on Monday!"
+                ],
+                "programOnHold1": [
+                    "计划暂停中。",
+                    "Program on hold."
+                ],
+                "programOnHold2": [
+                    "点击此处",
+                    "Click here"
+                ],
+                "programOnHold3": [
+                    "来更新计划设置！",
+                    " to update workout settings!"
+                ],
+                "programPendingReactivation": [
+                    "您的计划将于${on_hold_end_date}重新启动！",
+                    "Your program will resume on ${on_hold_end_date}."
+                ],
+                "swap": [
+                    "换动作",
+                    "swap"
+                ],
+                "skip": [
+                    "跳过",
+                    "skip"
+                ],
+                "completedAsMovement": [
+                    "上一组的动作为${movement_name}",
+                    "Completed as ${movement_name}"
+                ]
+            }
+        },
+        "profile": {
+            "layout": {
+                "personal": [
+                    "主页",
+                    "personal"
+                ],
+                "payments": [
+                    "购买历史",
+                    "payments"
+                ],
+                "submit": [
+                    "提交",
+                    "submit"
+                ]
+            }
+        }
+    },
+    "language": {
+        "tag": [
+            "ch",
+            "en"
+        ]
+    }
+}
